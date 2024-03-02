@@ -3,8 +3,8 @@ echo 'Starting to clone stuffs needed to build for pantah'
 # Device common
 echo 'Cloning common device tree'
 
-git clone https://github.com/Finnaib/device_google_gs101.git -b aosp-14 device/google/gs201
-git clone https://github.com/Finnaib/device_google_gs201.git -b aosp-14 device/google/gs101
+git clone https://github.com/Finnaib/device_google_gs201.git -b aosp-14 device/google/gs201
+git clone https://github.com/Finnaib/device_google_gs101.git -b aosp-14 device/google/gs101
 git clone https://github.com/Finnaib/device_google_gs-common.git -b aosp-14 device/google/gs-common
 
 # Kernel
